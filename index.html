@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLY — Política de Privacidade e Termos de Uso</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f0f; color: #d0d0d0; line-height: 1.7; }
+  .header { background: #1a1a2e; padding: 40px 20px; text-align: center; border-bottom: 1px solid #2a2a3e; }
+  .logo { font-size: 36px; font-weight: 300; letter-spacing: 8px; color: #fff; margin-bottom: 6px; }
+  .tagline { font-size: 14px; color: #6aacd4; }
+  .container { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+  .tabs { display: flex; gap: 0; margin-bottom: 32px; border-radius: 10px; overflow: hidden; border: 1px solid #2a2a2a; }
+  .tab { flex: 1; padding: 12px; text-align: center; cursor: pointer; font-size: 14px; font-weight: 500; background: #1a1a1a; color: #888; border: none; transition: all .2s; }
+  .tab.active { background: #185FA5; color: #fff; }
+  .section { display: none; }
+  .section.active { display: block; }
+  .date { font-size: 12px; color: #555; margin-bottom: 28px; }
+  h2 { font-size: 18px; font-weight: 500; color: #fff; margin: 28px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #2a2a2a; }
+  h2:first-of-type { margin-top: 0; }
+  p { font-size: 14px; color: #aaa; margin-bottom: 12px; }
+  ul { margin: 8px 0 14px 20px; }
+  li { font-size: 14px; color: #aaa; margin-bottom: 6px; }
+  .highlight { background: #0c2a44; border-left: 3px solid #185FA5; padding: 14px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; font-size: 14px; color: #6aacd4; }
+  .footer { text-align: center; padding: 30px; font-size: 12px; color: #444; border-top: 1px solid #1a1a1a; margin-top: 20px; }
+  .badge { display: inline-block; background: #185FA5; color: #B5D4F4; font-size: 11px; padding: 3px 10px; border-radius: 20px; margin-bottom: 20px; }
+</style>
+</head>
+<body>
 
+<div class="header">
+  <div class="logo">F L Y</div>
+  <div class="tagline">Finance Light for You</div>
+</div>
+
+<div class="container">
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('privacy')">Política de Privacidade</button>
+    <button class="tab" onclick="showTab('terms')">Termos de Uso</button>
+  </div>
+
+  <div id="privacy" class="section active">
+    <div class="badge">Privacidade</div>
+    <div class="date">Última atualização: maio de 2026</div>
+
+    <div class="highlight">
+      O FLY é um aplicativo de controle financeiro pessoal. Seus dados pertencem a você e são usados exclusivamente para o funcionamento do app.
+    </div>
+
+    <h2>1. Informações que coletamos</h2>
+    <p>O FLY coleta apenas as informações necessárias para o funcionamento do aplicativo:</p>
+    <ul>
+      <li>E-mail e senha para autenticação da conta</li>
+      <li>Nome e telefone (opcionais, informados pelo usuário)</li>
+      <li>Dados financeiros pessoais inseridos pelo usuário (contas, rendas, carteiras, categorias)</li>
+      <li>Preferências do aplicativo (tema, configurações)</li>
+    </ul>
+
+    <h2>2. Como usamos suas informações</h2>
+    <p>Seus dados são utilizados exclusivamente para:</p>
+    <ul>
+      <li>Fornecer os serviços do aplicativo</li>
+      <li>Autenticar sua conta com segurança</li>
+      <li>Armazenar e exibir seus dados financeiros pessoais</li>
+      <li>Enviar notificações locais de vencimento de contas</li>
+    </ul>
+
+    <h2>3. Armazenamento e segurança</h2>
+    <p>Seus dados são armazenados de forma segura no Supabase, com criptografia em trânsito (HTTPS) e em repouso. Cada usuário acessa apenas seus próprios dados através de políticas de Row Level Security (RLS).</p>
+    <p>Não vendemos, compartilhamos ou transferimos suas informações pessoais para terceiros sob nenhuma circunstância.</p>
+
+    <h2>4. Seus direitos</h2>
+    <p>Você tem direito a:</p>
+    <ul>
+      <li>Acessar todos os seus dados a qualquer momento dentro do app</li>
+      <li>Corrigir informações incorretas</li>
+      <li>Excluir sua conta e todos os dados associados permanentemente</li>
+      <li>Exportar seus dados financeiros</li>
+    </ul>
+
+    <h2>5. Retenção de dados</h2>
+    <p>Seus dados são mantidos enquanto sua conta estiver ativa. Ao solicitar a exclusão da conta, todos os dados são permanentemente removidos dos nossos servidores em até 30 dias.</p>
+
+    <h2>6. Cookies e rastreamento</h2>
+    <p>O FLY não utiliza cookies de rastreamento nem ferramentas de análise comportamental de terceiros.</p>
+
+    <h2>7. Menores de idade</h2>
+    <p>O FLY não é direcionado a menores de 13 anos. Não coletamos intencionalmente dados de crianças. Caso identifiquemos que uma conta pertence a um menor, os dados serão removidos imediatamente.</p>
+
+    <h2>8. Alterações nesta política</h2>
+    <p>Podemos atualizar esta política periodicamente. Alterações significativas serão notificadas dentro do aplicativo. O uso continuado após as alterações implica aceitação dos novos termos.</p>
+
+    <h2>9. Contato</h2>
+    <p>Para dúvidas sobre privacidade, entre em contato pelo e-mail: <strong style="color:#6aacd4">mybrapps@gmail.com</strong></p>
+  </div>
+
+  <div id="terms" class="section">
+    <div class="badge">Termos de Uso</div>
+    <div class="date">Última atualização: maio de 2026</div>
+
+    <div class="highlight">
+      Ao usar o FLY, você concorda com estes Termos de Uso. Se não concordar com qualquer parte, não utilize o aplicativo.
+    </div>
+
+    <h2>1. Aceitação dos termos</h2>
+    <p>Ao instalar ou usar o aplicativo FLY, você declara ter lido, compreendido e concordado com estes Termos de Uso e com nossa Política de Privacidade.</p>
+
+    <h2>2. Descrição do serviço</h2>
+    <p>O FLY é um aplicativo de controle financeiro pessoal que permite:</p>
+    <ul>
+      <li>Cadastrar e acompanhar contas e despesas mensais</li>
+      <li>Registrar fontes de renda por banco e categoria</li>
+      <li>Visualizar relatórios e análises financeiras</li>
+      <li>Receber alertas de vencimento de contas</li>
+      <li>Acompanhar reserva financeira acumulada</li>
+    </ul>
+
+    <h2>3. Uso permitido</h2>
+    <p>O FLY é uma ferramenta de organização financeira pessoal. É permitido usar o app para gerenciar suas finanças pessoais. É expressamente proibido:</p>
+    <ul>
+      <li>Usar o app para fins ilegais ou prejudiciais a terceiros</li>
+      <li>Tentar comprometer a segurança do sistema</li>
+      <li>Realizar engenharia reversa do aplicativo</li>
+      <li>Compartilhar suas credenciais de acesso com terceiros</li>
+    </ul>
+
+    <h2>4. Responsabilidades do usuário</h2>
+    <p>O usuário é responsável por:</p>
+    <ul>
+      <li>Manter suas credenciais de acesso em sigilo</li>
+      <li>Inserir informações precisas e atualizadas</li>
+      <li>Usar o aplicativo de acordo com as leis vigentes no Brasil</li>
+    </ul>
+
+    <h2>5. Limitação de responsabilidade</h2>
+    <p>O FLY é uma ferramenta de organização financeira pessoal. Não nos responsabilizamos por decisões financeiras tomadas com base nas informações do aplicativo. Recomendamos sempre consultar um profissional financeiro para decisões importantes.</p>
+
+    <h2>6. Disponibilidade</h2>
+    <p>Nos esforçamos para manter o aplicativo disponível 24 horas por dia, 7 dias por semana. No entanto, não garantimos disponibilidade ininterrupta. Manutenções programadas serão comunicadas com antecedência quando possível.</p>
+
+    <h2>7. Modificações</h2>
+    <p>Podemos atualizar estes termos a qualquer momento. Alterações significativas serão notificadas no aplicativo. O uso continuado após as alterações implica aceitação dos novos termos.</p>
+
+    <h2>8. Encerramento</h2>
+    <p>Você pode encerrar sua conta a qualquer momento através das configurações do aplicativo. Reservamo-nos o direito de suspender contas que violem estes termos.</p>
+
+    <h2>9. Lei aplicável</h2>
+    <p>Estes termos são regidos pelas leis da República Federativa do Brasil. Fica eleito o foro da Comarca de São Paulo/SP para dirimir quaisquer controvérsias.</p>
+
+    <h2>10. Contato</h2>
+    <p>Para dúvidas sobre estes termos, entre em contato pelo e-mail: <strong style="color:#6aacd4">mybrapps@gmail.com</strong></p>
+  </div>
+
+  <div class="footer">
+    FLY · Finance Light for You · My BR Apps · 2026<br>
+    mybrapps@gmail.com
+  </div>
+</div>
+
+<script>
+function showTab(tab) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(tab).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>
